@@ -28,8 +28,10 @@ yarn add @kaltmax/shuffle-array
 
 Basic Usage
 
-```js
+```js<>
 import shuffleArray from '@kaltmax/shuffle-array';
+or 
+import cryptoShuffleArray from '@kaltmax/shuffle-array';
 
 const startArray = [1, 2, 3, 4, 5];
 const newShuffledArray = shuffleArray(startArray);
